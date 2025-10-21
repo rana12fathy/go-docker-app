@@ -1,10 +1,6 @@
-# Dockerized Go Application
+# 🐳 Go Docker App
 
-This is a simple Go web server that responds with "Hello from Dockerized Go App!".
+## 📖 Description
+This is a simple **Go web application** that runs inside a Docker container.  
+When you run the container, it displays the message:
 
-## Run Locally
-To build and run the app locally using Docker:
-
-```bash
-docker build -t go-docker-app .
-docker run -p 8080:8080 go-docker-app
